@@ -60,7 +60,7 @@ __Wireframe Mock-ups__
 #### Feature 1 
 _Navigation Bar:_
 This is a __responsive__ navigation bar which allows the user to navigate easily and access the information 
-which they require by clicking links. For mobile devices, this becomes a 'burger icon' dropdown menu
+which they require by clicking links. This enhances the User Interface. For mobile devices, this becomes a 'burger icon' dropdown menu
 which saves real estate for the smaller screen.
 
 #### Feature 2
@@ -95,7 +95,7 @@ _Get in touch link:_ Link on each page and a __call to action__ which directs th
 
 
 #### Feature 8
-_Get in touch:_This is a form, allowing visitors to send their enquiry directly to
+_Get in touch:_ This is a form, allowing visitors to send their enquiry directly to
 the fitness expert. Name, email and contact number must be filled. All fields are required
 and a valid email address must be used. The bottom of the page contains a Send Button. 
 
@@ -107,6 +107,11 @@ All unavailable dates are blocked out in colour.
 #### Feature 10
 _Pricing:_  A link contained within the 'Get in Touch' page.
 
+#### Fearure 11
+_Font and colours_ A dark blue background was chosen with the text in turquoise.
+This was to convey the clean, natural and healthy service that is being provided.
+
+
 
 ### Features to implement in the Future
 * Login area for current customers 
@@ -115,6 +120,7 @@ _Pricing:_  A link contained within the 'Get in Touch' page.
 * A follow up message that thanks the customer for contacting the business.
 * An option of languages to increase the market potential
 * Functionality to the calender so customers can book in sessions
+* Potential to create an App for the online customers
 
 ## Technologies Used
 * __HTML and CSS:__ 
@@ -148,6 +154,8 @@ Bootstrap 4 was utilised to create a resposive web page and give a framework to 
 <br> https://git-scm.com/
 <br>https://github.com/
 
+* __CSS Colour Codes:__ Used to obtain the colours for the project.
+<br>https://www.quackit.com/css/css_color_codes.cfm
 
 
 
@@ -193,14 +201,14 @@ All content in the 'About' page is fictional.
 
 ### Media
 * __Images:__
-Images sourced by using advanced search in Google images to filter "free to use, share or modify, even commercially" images only.
+Images sourced by using advanced search in Google images to filter for "free to use, share or modify, even commercially" images only.
 Image links: 
 <br> 
 <br>
 
 * __Video:__
 
-* __Timetable and nutrtion plan:__
+* __Timetable and nutrition plan:__
 
 ### Code
 <br> 

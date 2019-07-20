@@ -1,0 +1,125 @@
+/*----------------------------------------------- Colours*/
+
+.nav-link {
+    color: white;
+}
+
+.active {
+    color: #014259 ;
+}
+
+.navbar {
+    background-color: #77C9D4;
+   
+}
+
+
+li a:hover {
+    color: #f7ce3e;
+}
+
+/*--------------------------------------------- General*/
+
+body {font-size: 17px;
+    font-family: "arial", sans-serif;
+}
+
+/*--------------------------------------------- Nav bar*/
+
+nav ul {
+    padding: 8px;
+    margin-right: 0;
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+  
+}
+
+.logo {
+    position: static;
+    background: url("../images/rosie.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    padding-left: 10px;
+    min-height: 100px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    height: 10%;
+    width: 25%;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #e84610;
+    padding: 15px 25px;
+}
+
+nav select {
+    display: none;
+    background-color: #77C9D4;
+    color: white;
+    border: 1px solid #778899;
+   position: relative;
+   cursor: pointer;
+   top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+    
+}
+
+#select {color: #f7ce3e; 
+    background-color:  #014259;
+}
+
+
+/*------------- Responsive design*/
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+
+
+    .topnav {
+        display: none;
+    }
+    nav select {
+        display: inline-block;
+        width: 55%;
+        height: 25%;
+        position: left;
+    }
+    .nav-item {
+        display: none;
+    }
+    .logo {
+        position: right;
+        height: 80%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    ...
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    ...
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px)
+}
