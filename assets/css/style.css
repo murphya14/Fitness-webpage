@@ -24,6 +24,13 @@ body {font-size: 17px;
     font-family: "arial", sans-serif;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 /*--------------------------------------------- Nav bar*/
 
 nav ul {
@@ -77,21 +84,91 @@ nav select {
     background-color:  #014259;
 }
 
+/*--------------------------------------------- footer*/
+
+#button {
+  text-align: center;
+  display: inline-block;
+  background-color: #FF9800;
+  width: 50px;
+  height: 50px;
+  
+  border-radius: 4px;
+  margin: 30px;
+  
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s;
+  z-index: 1000;
+   
+    position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+
+}
+
+
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button:active {
+  background-color: #555;
+}
+
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+
+.footer-link 
+{color: white;
+text-align: right;
+    padding-bottom: 10px;
+    float: none;
+    padding-right: 30px;
+    font-size:33;
+    font-weight: 500;
+  
+}
+
+footer a {color:white;}
+
+ footer  a:hover {
+    color: #f7ce3e;
+}
+
+.text-footer {float: left; 
+padding-bottom: 10px; 
+text-align: left;
+
+}
+
+
+
+
 
 /*------------- Responsive design*/
 
 /* Extra small devices (phones, 600px and down) */
+    
 
 @media only screen and (max-width: 600px) {
 
-
-    .topnav {
-        display: none;
+/*------------------------------------- Changing the menu to a select bar for smaller screens*/
+  .topnav {display: none;
     }
     nav select {
         display: inline-block;
         width: 55%;
         height: 25%;
+          border-radius: 4px; 
         position: left;
     }
     .nav-item {
@@ -102,6 +179,11 @@ nav select {
         height: 80%;
     }
 }
+
+
+/*---------------------------vertically aligning the footer elements in the center for a smaller screen*/
+
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 

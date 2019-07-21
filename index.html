@@ -53,13 +53,11 @@
 
 
       <select id="select"> 
-    <option value="/" selected="selected">Menu</div> 
-    
-    <option value="/">Home</option> 
-    <option value="/collections/all">About</option> 
-    <option value="/blogs/five-simple-steps-blog">Coaching</option> 
-    <option value="/pages/about-us">Online Coaching</option> 
-    <option value="/pages/support">Get in Touch</option> 
+    <option value="index.html" selected="selected">Home</div> 
+    <option value="about.html">About</option> 
+    <option value="training.html">Personal Training</option> 
+    <option value="group-training">Group Training</option> 
+    <option value="get-in-touch">Get in Touch</option> 
   </select>
 
     </nav>
@@ -84,9 +82,54 @@
       </aside>
     </section>
   </div>
-  <footer class="footer">
-    Footer
+  
+  
+
+  <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+    <div class="container-fluid text-footer">
+      <small>2019 Copyright &copy; LN</small></div>
+  
+<div><a id="button"></a></div>
+
+
+<div class="footer-link">
+<a  href="#">Get in Touch</a></div>
+
+
   </footer>
+  
+  
+<!--------------Back to top button created with help from https://www.templatemonster.com/blog/back-to-top-button-css-jquery/--->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+<script>
+
+jQuery(document).ready(function() {
+  
+  var btn = $('#button');
+
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 300) {
+      btn.addClass('show');
+    } else {
+      btn.removeClass('show');
+    }
+  });
+
+  btn.on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({scrollTop:0}, '300');
+  });
+
+});
+
+</script>
+
+
+
 
 </body>
 
