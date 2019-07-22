@@ -68,93 +68,104 @@
 
   <div>
     <section class="section">
-      <article class="article column column-60">
-        <p class="section-paragraph">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis numquam magnam dicta maiores aliquid pariatur consectetur, doloribus enim facilis minus quisquam nisi doloremque. Quo consequatur inventore earum exercitationem facilis veritatis temporibus,
-          ducimus id beatae molestias eaque rerum qui excepturi, fuga, quod ipsum neque dolorum! Dicta iure, magni voluptas sunt repudiandae.
-        </p>
-      </article>
-      <aside class="aside column column-40">
-        <p class="section-paragraph">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse officia aspernatur maxime minima numquam architecto vel illum itaque a distinctio. Sint quo necessitatibus quis eum cum illum vitae magni voluptates atque totam, dolore, exercitationem aspernatur
-          odio at, doloribus quaerat ex! Perspiciatis ullam amet nisi sequi, consectetur ea, voluptate nulla repellendus.
-        </p>
-      </aside>
-    </section>
+      <section class="container-fluid">
+
+        <div class="row">
+          <div class="col-12 main-image">
+            <img src="assets/images/home-pic.jpg" alt="Woman holding barbell">
+            <div class="image-text">LN Fitness</div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <h3 class="section-heading uppercase">About</h3>
+            o in order to stand out, customize it in a way that appeals to you, or just come back and take certain components and things out of it that you want to include in your own projects. Before you finish, add your files, commit them to Git, and then put them
+            in a GitHub repository. Well done for completing the User Centric Front End Development module of the course. You're now ready to move on to your first milestone project. Now would be a good time to speak with your mentor and to discuss ideas
+            about what you're going to implement. I look forward t we're going to create. But now in our next videos, it's time to start adding some content to our homepage.
+          </div>
+
+        </div>
+      </section>
   </div>
-  
- > 
+
+
+
+
+
+
 
   <footer id="footer" class="container-fluid py-4 bg-dark text-white-50">
-    <div class="container-fluid text-footer inline-block">
-      <small>2019 Copyright &copy; LN</small></div>
-  
-<div><a id="button"></a></div>
+    <div class="row">
 
-<div>
-  
-<div class="footer-link">
-<a  href="#">Get in Touch</a></div>
+      <div class="col-sm-4 text-footer">
+        <small>2019 Copyright &copy; LN</small></div>
 
-<div class="footer-link">
-                <h5 class="uppercase general-sub">Connect</h5>
-                <ul class="list-inline social-links">
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
+      <div class="col-sm-4 "><a id="button"></a></div>
+
+      
+<div class="col-sm-4">
+       
+
+        <div class="footer-link">
+          <h5 class="uppercase general-sub">Connect</h5>
+          <ul class="list-inline social-links">
+            <li class="list-inline-item">
+              <a target="_blank" href="#">
                             <i class="fa fa-facebook" aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
                         </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
+            </li>
+            <li class="list-inline-item">
+              <a target="_blank" href="#">
                             <i class="fa fa-twitter" aria-hidden="true"></i>
                             <span class="sr-only">Twitter</span>
                         </a>
-                    </li>
-              
-                  
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
+            </li>
+
+
+            <li class="list-inline-item">
+              <a target="_blank" href="#">
                             <i class="fa fa-instagram" aria-hidden="true"></i>
                             <span class="sr-only">Instagram</span>
                         </a>
-                    </li>
-                  
-                </ul>
-            </div>
+            </li>
+
+          </ul>
+        </div>
 
 </div>
+   
   </footer>
-  
-  
-<!--------------Back to top button created with help from https://www.templatemonster.com/blog/back-to-top-button-css-jquery/--->
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
 
-<script>
+  <!--------------Back to top button created with help from https://www.templatemonster.com/blog/back-to-top-button-css-jquery/--->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-jQuery(document).ready(function() {
-  
-  var btn = $('#button');
 
-  $(window).scroll(function() {
-    if ($(window).scrollTop() > 300) {
-      btn.addClass('show');
-    } else {
-      btn.removeClass('show');
-    }
-  });
+  <script>
+    jQuery(document).ready(function() {
 
-  btn.on('click', function(e) {
-    e.preventDefault();
-    $('html, body').animate({scrollTop:0}, '300');
-  });
+      var btn = $('#button');
 
-});
+      $(window).scroll(function() {
+        if ($(window).scrollTop() > 300) {
+          btn.addClass('show');
+        }
+        else {
+          btn.removeClass('show');
+        }
+      });
 
-</script>
+      btn.on('click', function(e) {
+        e.preventDefault();
+        $('html, body').animate({ scrollTop: 0 }, '300');
+      });
+
+    });
+  </script>
 
 
 
