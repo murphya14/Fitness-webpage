@@ -1,15 +1,15 @@
 /*----------------------------------------------- Colours*/
 
 .nav-link {
-    color: white;
+    color: #00ccff;
 }
 
 .active {
-    color: #014259 ;
+    color: #014259;
 }
 
 .navbar {
-    background-color: #77C9D4;
+    background:#f7ce3e ;
    
 }
 
@@ -40,30 +40,28 @@ body {font-size: 17px;
     height:100%;
     padding-left:0;
     padding-right:0;
+    position: relative; 
 }
 
 
 
 
 
-.image { 
-   position: relative; 
-   width: 100%; 
-}
 
 .image-text { 
    position: absolute; 
    top: 200px; 
    left: 70%; 
    width: 100%; 
-   color:#77C9D4;
+   color:#13BA61;
    font-family: "Dancing Script"; 
    font-size: 48px; 
-   font-style: normal;
    font-variant: normal; 
    font-weight: 700; 
    line-height: 26.4px;
-}
+ }
+
+
 /*--------------------------------------------- Nav bar*/
 
 nav ul {
@@ -72,6 +70,7 @@ nav ul {
     display: block;
     font-size: 20px;
     font-weight: 600;
+    
   
 }
 
@@ -114,15 +113,38 @@ nav select {
 }
 
 #select {color: #f7ce3e; 
-    background-color:  #014259;
+    background-color: #5F6C7A;
 }
 
+
+.nav-link 
+{color: #0A1612;
+text-align: center;
+padding: 8px;
+    margin-right: 0;
+    display: block;  
+   
+    font-size:33;
+    font-weight: 500;
+    padding-left: 5px;
+      transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+
+}
+/*-------------------------Social links*/
+nav a {color:#5F6C7A;}
+
+nav a:hover {
+    color: white;
+}
 /*--------------------------------------------- footer*/
 
 #button {
   text-align: center;
   display: inline-block;
-  background-color: #FF9800;
+  background-color: #f7ce3e;
   width: 50px;
 
   border-radius: 4px;
