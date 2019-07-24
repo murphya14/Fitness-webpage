@@ -187,7 +187,7 @@ margin:10px;
 
 .section-p-about {padding:15px;
     text-align: center;
-      transform: translate(+25%, 0);
+     width:75%; 
 }
 
 
@@ -230,11 +230,13 @@ text-decoration:none;
 /* With help from https://www.w3schools.com/css/tryit.asp?filename=trycss_transparency*/
 
 div.transbox {
-  margin: 30px;
+  margin: 50px;
+  
   background-color: #5F6C7A;
   border: none;
   opacity: 0.6;
   filter: alpha(opacity=60); 
+  padding: 10px;
 }
 
 div.transbox p {
@@ -245,6 +247,11 @@ div.transbox p {
 
 .box-heading {font-weight:700;
 color:white;}
+
+
+/*------------------personal-training.html*/
+
+.col-md-10 {transform: translate(+5%,0);}
 
 
 /*--------------------------------------------- footer*/
@@ -363,7 +370,7 @@ text-align: left;
 /* Medium devices (landscape tablets, 768px and up) */
 
 @media only screen and (min-width: 768px) {
-    ...
+.section-p-about {  transform: translate(25%, 0);}
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
