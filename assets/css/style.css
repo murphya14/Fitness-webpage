@@ -253,6 +253,11 @@ color:white;}
 
 .col-md-10 {transform: translate(+5%,0);}
 
+.transbox-testimony {height:400px;
+    transform: translate(+8%,0);
+}
+
+.testimony {transform: translate(+12%, +12%);}
 
 /*--------------------------------------------- footer*/
 
