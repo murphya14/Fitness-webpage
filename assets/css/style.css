@@ -265,10 +265,23 @@ color:white;}
 iframe {transform: translate(+50%, 0%);}
 
 .timetable-link {
-transform: translate(-50%%,+40%);
+transform: translate(-50%,+40%);
     width: 25%;
 }
                 
+/*------------------get-in-touch.html*/
+
+.main-image-contact {width:70%;
+transform: translate(-5%,+7%);}
+
+.contact-container {
+  background-color: whitesmoke;
+  margin-top: 20px;
+
+}
+
+.contact-box {transform: translate(+100%,-150%);}
+
 
 
 /*--------------------------------------------- footer*/
