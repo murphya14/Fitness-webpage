@@ -146,6 +146,7 @@ nav a:hover {
     padding-left:0;
     padding-right:0;
     position: relative;
+    transform: translate(0%, +10%);
  }
 
 .image-text { 
@@ -174,7 +175,7 @@ nav a:hover {
 
 .section-heading {color: #D2691E;
             text-align: center;
-                    padding: 30px;
+            margin-top:100px;
 }
 
 .section-p {padding:12px;
@@ -258,6 +259,17 @@ color:white;}
 }
 
 .testimony {transform: translate(+12%, +12%);}
+
+/*------------------group-trainig.html*/
+
+iframe {transform: translate(+50%, 0%);}
+
+.timetable-link {
+transform: translate(-50%%,+40%);
+    width: 25%;
+}
+                
+
 
 /*--------------------------------------------- footer*/
 
