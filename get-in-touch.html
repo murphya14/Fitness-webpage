@@ -5,11 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="assets/css/style.css" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
   <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Dancing+Script" />
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <title>Home</title>
 </head>
 
@@ -101,29 +102,44 @@
   <!-- Container for main image -->
  <section class="section">
 
-  <div class="container-fluid col-md-12 contact-container">
+  <div class="container-fluid">
    
 
- <div class="row-no-gutters ">
+ <div class="row">
 
-  <div class="col-md-6 main-image-contact image">
+  <div class="column main-image-contact image">
           <img src="assets/images/get-in-touch.jpg" alt="Jumping group">
 
           <h2 class="image-text">LN Fitness</h2>
   </div>
   <!-- Content for section -->
   
-<div class="col-md-6 contact-box">
+<div class="column contact-box">
    
-  <h3 class="section-heading ">Get in touch with LN Fitness</h3>
+ 
   <div class="transbox">
-    <h3 class="box-heading"> Outdoor Circuits </h3>
-  
-      <p class="col-md-12 col-sm-12">
-        
-  FORM
+    <h3 class="box-heading section-heading"> Get in touch with LN Fitness </h3>
+          <p>
+        Resize the browser window to see the responsive effect (the columns will stack on top of each other instead of floating next to each other, when the screen is less than 600px 
+
         
       </p>
+    <div class="center-form" >
+      <form>
+              <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
+                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
+                        <input type="phonenumber" name="phonenumber" id="phonenumber" class="form-control" placeholder="Phone Number" required />
+                        <textarea rows="5" name="Message" id="message" class="form-control" placeholder="Message" required></textarea>
+                        <div class="form-row text-center">
+                            <div class="col">
+                                <button type="submit" class="btn">Send Message</button>
+                            </div>
+        </form>
+      
+      
+    </div>
+  
+
     </div>
     
    
@@ -142,9 +158,9 @@
 
   <!-- footer-->
 
+
   <footer id="footer" class="container-fluid py-4 bg-dark text-white-50">
     <div class="row">
-
       <div class="col-sm-4 text-footer">
         <small>2019 Copyright &copy; AM</small></div>
 
