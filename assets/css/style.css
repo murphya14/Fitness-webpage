@@ -268,11 +268,12 @@ color:white;}
 
 /*------------------group-trainig.html*/
 
-iframe {transform: translate(+50%, 0%);}
 
 .timetable-link {
-transform: translate(-50%,+40%);
-    width: 25%;
+min-width:120px;
+margin-bottom: 40px;
+transform: translate(+200%, 0%);
+
 }
                 
 /*------------------get-in-touch.html*/
@@ -297,8 +298,7 @@ transform: translate(-50%,+40%);
   padding: 15px 20px;
   border: none;
   cursor: pointer;
- 
- background-color:#f7ce3e;
+  background-color:#f7ce3e;
  width:50%;
 }
 
@@ -308,8 +308,9 @@ transform: translate(-50%,+40%);
 }
 
 .center-form {opacity:1;
-    
-}
+   }
+
+
 
 
 /*--------------------------------------------- footer*/
@@ -357,9 +358,9 @@ transform: translate(-50%,+40%);
 text-align: right;
   
     float: none;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     padding-right: 30px;
-    padding-top:30px;
+    padding-top:10px;
     font-size:33;
     font-weight: 500;
     padding-left: 5px;
@@ -385,7 +386,7 @@ text-align: left;
 #footer { min-height: 120px;
 
     margin: 0;
-    padding: 20px;
+    padding: 15px;
     max-width:100%;}
 
 
