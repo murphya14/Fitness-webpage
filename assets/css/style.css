@@ -9,7 +9,7 @@
 }
 
 .navbar {
-    background:#f7ce3e ;
+    background:#f7ce3e;
    
 }
 
@@ -160,7 +160,7 @@ nav a:hover {
    top: 250px; 
    left: 70%; 
    width: 100%; 
-   color:#13BA61;
+   color:#21EB7B;
    font-family: "Dancing Script"; 
    font-size: 48px; 
    font-variant: normal; 
@@ -172,11 +172,11 @@ nav a:hover {
 
 
 /*------------------Index.html*/
- .section {background-color:#B0E0E6;
+
+/*------------------https://mycolor.space/gradient?ori=to+right+top&hex=%2395ABAA&hex2=%23F6F6F5&sub=1*/
+ .section {background-image: linear-gradient(to right top, #95abaa, #aebdb8, #c8d0ca, #e0e2de, #f6f6f5);
   text-align: center;
-  
- 
-     max-width:100%;
+    max-width:100%;
  }
 
 .section-heading {color: #D2691E;
@@ -188,6 +188,7 @@ nav a:hover {
 margin:10px;
     padding-bottom: 50px;
 ;
+color: #708090;
 
     
 }
@@ -238,8 +239,8 @@ text-decoration:none;
 
 div.transbox {
   margin: 50px;
-  
-  background-color: #5F6C7A;
+  border-radius: 4px;
+  background-color: black;
   border: none;
   opacity: 0.6;
   filter: alpha(opacity=60); 
@@ -249,11 +250,11 @@ div.transbox {
 div.transbox p {
   margin: 5%;
   font-weight: bold;
-  color: #000000;
+  color: #F5F4F4;
 }
 
 .box-heading {font-weight:700;
-color:white;}
+color:#87D63E;}
 
 
 /*------------------personal-training.html*/
