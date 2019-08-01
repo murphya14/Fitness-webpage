@@ -222,15 +222,14 @@ text-align: center;
     padding:15px;
     margin:15px;
     border-radius:15px;
-      
+      display:block;
   bottom: 5px;
-  right: 30px;
+
   transition: background-color .3s;
   z-index: 1000;
   position: relative;
-   left: 50%;
-   
-     transform: translate(-50%,-50%);
+   left: 55%;
+   transform: translate(-50%,-50%);
     
     
 }
@@ -263,6 +262,8 @@ div.transbox {
   width:100%;
   height:100%;
  position:relative;
+ 
+    transform: translateY(-10%);
 
 }
 
@@ -271,7 +272,9 @@ display: flex;
 justify-content: center;
 align-items: center;
 resize: both;
-padding-top: 0px !important;}
+padding-top: 0px !important;
+    
+}
 
 
 div.transbox p {
@@ -296,11 +299,6 @@ color:#87D63E;}
 
 /*------------------group-trainig.html*/
 
-.timetable-link {
-min-width:120px;
-position: relative;
-margin-top:40px;
-}
 
 
 
@@ -315,7 +313,14 @@ margin-top:40px;
   flex: 50%;
 }
 
-.main-image-contact {transform: translate(-5%,0%);}
+.main-image-contact {transform: translate(-5%,0%);
+width:100%;
+margin:0;
+    
+}
+
+.contact-box {max-width: 100%;
+margin-right:0px;}
 
 .box-heading {padding-top:20px;}
 
@@ -508,6 +513,11 @@ section img {display:none;}
     padding:10px;
 }
 
+.free-link { transform: translate(0%, 0);}
+
+.timetable-link { transform: translate(0%, 0);}
+
+
 }
 @media only screen and (min-width: 600px) {
 
@@ -524,9 +534,9 @@ section img {display:none;}
 .section-p-about {  transform: translate(25%, 0);}
 
 
-.timetable-link {margin-left:300px;
+.timetable-link {margin:300px;
     margin-top:50px;
-    width: 200px;
+    width: 50%;
 }
 iframe {margin-left: 50px;}
 }
@@ -536,6 +546,14 @@ iframe {margin-left: 50px;}
 }
 
 
+ iframe, .box {transform: translate(-5%, 0);}
+ 
+
+ .free-link {transform: translate(-70%, -10%);}
+ 
+ .timetable-link {transform: translate(-300%, -10%);}
+ 
+
 @media only screen and (max-width: 768px){
 
 .mobile-only {display:none;}
@@ -543,13 +561,20 @@ iframe {margin-left: 50px;}
 
 .transbox {transform: translate(25%, 0);}
 
+.timetable-link {transform: translate(-200%, -10%);}
+
+.main-image-contact {display:none;}
 
 }
 /* Large devices (laptops/desktops, 992px and up) */
 
-@media only screen and (min-width: 992px) {
+@media only screen and (max-width: 992px) {
 
 .mobile-only {display:none;}
+
+
+ 
+
 }
 
 
@@ -561,5 +586,16 @@ iframe {margin-left: 50px;}
 @media only screen and (min-width: 1200px) {
  
  .mobile-only {display:none;} 
+ 
+ .timetable-link {transform: translate(-130%, -10%);}
 }
+
+.transbox {transform: translate(10%, 0);}
+
+
+
+
+
+
+
 
