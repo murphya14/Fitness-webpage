@@ -50,8 +50,16 @@ body {font-size: 17px;
 
 
 
+col-lg-12 {
+           text-align:center;
+}
 
-    
+ col-lg-4{
+ display:inline-block; 
+ float: none; 
+}
+
+
 
 
 
@@ -153,6 +161,7 @@ nav a:hover {
     position: relative;
     transform: translate(-5%, +10%);
     margin: 0;
+ 
   
 }
  
@@ -181,6 +190,7 @@ nav a:hover {
   text-align: center;
   max-width:100%;
   overflow:hidden;
+  
  }
 
 .section-heading {color: #D2691E;
@@ -200,7 +210,7 @@ text-align: center;
 
 .section-p-about {padding:15px;
     text-align: center;
-     width:75%; 
+     width:100%; 
 }
 
 
@@ -250,7 +260,19 @@ div.transbox {
   opacity: 0.6;
   filter: alpha(opacity=60); 
   padding: 10px;
+  width:100%;
+  height:100%;
+ position:relative;
+
 }
+
+.content{margin: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+resize: both;
+padding-top: 0px !important;}
+
 
 div.transbox p {
   margin: 5%;
@@ -274,14 +296,14 @@ color:#87D63E;}
 
 /*------------------group-trainig.html*/
 
-
 .timetable-link {
 min-width:120px;
-
-  position: relative;
-margin-left:350px;
-margin-top: 50px;
+position: relative;
+margin-top:40px;
 }
+
+
+
 /*------------------get-in-touch.html*/
 
 
@@ -430,7 +452,18 @@ text-align: left;
 
 
 
+.text-footer {margin-top: 30px;}
 
+.free-link {margin-right: 50%;
+    margin-top: 40px;
+}
+
+.timetable-link {
+    margin-right:50%;
+    margin-top: 40px;
+    
+     
+}
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -458,6 +491,9 @@ text-align: left;
   left: 50%;
   transform: translate(-50%, 60%);}
 
+footer #button {position:relative;
+   top:-150%;
+}
 
 
 
@@ -465,37 +501,50 @@ iframe {display:none;
   
 }
 
-.timetable-link {margin-left:50px;
-margin-top: 50px;}
-
 section img {display:none;}
 
-    
+
+.box { transform: translate(-15%, 0);
+    padding:10px;
 }
 
-@media only screen and (min-width: 600px) {
- 
-.mobile-only {display:none;}
 }
+@media only screen and (min-width: 600px) {
+
+    
+  .mobile-only {width:100%;
+     
+  }
+}
+ 
 
 /* Medium devices (landscape tablets, 768px and up) */
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px){
 .section-p-about {  transform: translate(25%, 0);}
 
-.mobile-only {display:none;}
+
+.timetable-link {margin-left:300px;
+    margin-top:50px;
+    width: 200px;
+}
+iframe {margin-left: 50px;}
+}
+
+.box { margin:30px;
+    padding:10px;
 }
 
 
-
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px){
 
 .mobile-only {display:none;}
     
+
+.transbox {transform: translate(25%, 0);}
+
+
 }
-
-
-
 /* Large devices (laptops/desktops, 992px and up) */
 
 @media only screen and (min-width: 992px) {
@@ -503,6 +552,8 @@ section img {display:none;}
 .mobile-only {display:none;}
 }
 
+
+ 
 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
