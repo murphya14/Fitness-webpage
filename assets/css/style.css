@@ -211,7 +211,8 @@ text-align: center;
 .section-p-about {padding:15px;
     text-align: center;
      width:100%; 
-}
+     margin:10px;
+     margin-bottom: 40px;}
 
 
 
@@ -255,14 +256,15 @@ div.transbox {
   margin: 50px;
   border-radius: 4px;
   background-color: black;
-  border: none;
   opacity: 0.6;
   filter: alpha(opacity=60); 
   padding: 10px;
+  
   width:100%;
   height:100%;
  position:relative;
  transform: translateY(-10%);
+ border: 20px;
 
 }
 
@@ -294,13 +296,15 @@ color:#87D63E;}
 .col-md-10 {transform: translate(+5%,0);}
 
 .transbox-testimony {height:100%;
-padding-top: 5%;}
+padding-top: 5%;
+    
+}
 
 
 
 /*------------------group-trainig.html*/
 
-
+iframe {margin-bottom: 40px;}
 
 
 /*------------------get-in-touch.html*/
