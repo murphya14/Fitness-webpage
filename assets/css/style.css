@@ -320,13 +320,18 @@ margin:0;
     
 }
 
-.contact-box {  padding: 10px;
-  width:100%;
+.contact-box { 
+ padding-top:30px;
   height:100%;
  position:relative;
- transform: translateX(-15%);
+ transform: translateX(-10%);
+ ;
+column-span: all;
+margin-bottom: 0;
+margin-top:0;
+float:right;
+ 
 
-  top:-100%;
 }
 
 .box-heading {padding-top:20px;}
@@ -437,7 +442,7 @@ text-align: left;
 /* Extra small devices (phones, 600px and down) */
     
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width:600px) {
 
 /*------------------------------------- Changing the menu to a select bar for smaller screens*/
   
@@ -461,7 +466,7 @@ text-align: left;
   
   .navbar {position: relative;}
   
-}
+
 
 
 
@@ -473,16 +478,9 @@ text-align: left;
 
 .timetable-link {
     margin-right:50%;
-    margin-top: 40px;
+    margin-top: 40px;}
     
-     
-}
 
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-
-@media only screen and (max-width: 600px) {
-    
 
     .logo {
         position: right;
@@ -528,6 +526,9 @@ section img {display:none;}
 
   .mobile-only {width:100%
   ;}
+  
+.contact-box{transform: translateX(-13%);
+margin: 0px;}
 
 }
  
@@ -557,11 +558,14 @@ iframe {margin-left: 50px;}
  
  
  .mobile-only {display:none;}
+ 
+
 
 
 @media only screen and (max-width: 768px){
 
-
+ .contact-box { 
+ padding-top:200px;}
     
 
 .transbox {transform: translate(25%, 0);}
@@ -580,10 +584,14 @@ iframe {margin-left: 50px;}
 
 
 }
+/* Medium/large devices  (Ipad Pro, 1024px and up) */
 
-
+@media only screen and (max-width: 1024px) {
  
+.main-image-contact {display:none;}
 
+
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
