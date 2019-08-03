@@ -6,11 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">  <link rel="stylesheet" href="assets/css/style.css" />
-   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Dancing+Script" />
-  <title>Home</title>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<title>Home</title>
 </head>
 
 <body>
@@ -53,7 +53,7 @@
         <!-- Select menu for Nav bar for smaller devices-->
 
         <select id="select"> 
-    <option value="index.html" >Home</div> 
+    <option value="index.html" >Home</option> 
     <option value="about.html" selected="selected">About</option> 
     <option value="personal-training.html">Personal Training</option> 
     <option value="group-training">Group Training</option> 
@@ -228,33 +228,8 @@
   </footer>
 
 
-  <!--------------Back to top button created with help from https://www.templatemonster.com/blog/back-to-top-button-css-jquery/--->
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
 
-  <script>
-    jQuery(document).ready(function() {
-
-      var btn = $('#button');
-
-      $(window).scroll(function() {
-        if ($(window).scrollTop() > 300) {
-          btn.addClass('show');
-        }
-        else {
-          btn.removeClass('show');
-        }
-      });
-
-      btn.on('click', function(e) {
-        e.preventDefault();
-        $('html, body').animate({ scrollTop: 0 }, '300');
-      });
-
-    });
-  </script>
 
 
 

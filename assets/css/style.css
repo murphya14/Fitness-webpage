@@ -118,6 +118,7 @@ nav select {
   left: 0;
   right: 0;
   z-index: 99;
+  width: 30px;
     
 }
 
@@ -329,8 +330,7 @@ margin:0;
   height:100%;
  position:relative;
  transform: translateX(-10%);
- ;
-column-span: all;
+ column-span: all;
 margin-bottom: 0;
 margin-top:0;
 float:right;
@@ -353,13 +353,15 @@ float:right;
 
 .btn:hover {
   opacity: 1;
-  background-color:#B0E0E6 ;
+  background-color:#D2691E ;
+  color: white;
 }
 
 .center-form {opacity:1;
    }
 
-
+.custom-checkbox {margin: 15px;
+color:#D2691E;}
 
 
 
@@ -512,9 +514,9 @@ footer #button {position:relative;
 
 
 
-iframe {display:none;
+iframe {display:none;}
   
-}
+
 
 section img {display:none;}
 
@@ -531,8 +533,10 @@ section img {display:none;}
   .mobile-only {width:100%
   ;}
   
-.contact-box{transform: translateX(-13%);
-margin: 0px;}
+.contact-box{
+margin: 20px;
+     transform: translate(-15%, -20%);
+}
 
 }
  
