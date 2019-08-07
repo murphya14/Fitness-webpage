@@ -1,9 +1,10 @@
+
+
 # LN Fitness Website 
-<a href="logo">Fitness logo</a>
 
- 
+ https://github.com/murphya14/Fitness-webpage
 
-https://github.com/murphya14/Fitness-webpage
+
 
 
 
@@ -15,28 +16,30 @@ nutrition by using the services provided by a leading expert.
 This business and website is meeting the increasing demand of current and potential customers to succeed in 
 __their__ fitness goals. In addition to this, it is creating a platform that
 is capable of appealing to all budgets and preference for delivary that will achieve the desired result for customers. There is the 
-option of tailored programs, following a group program or an online consultation. 
+option of tailored program or following a group program. 
 The aim of this website is to convey this information to potential customers and 
 prompt contact. 
 
 This is a B2C website which triggers emotive response through 
-testimonials, images, video clips and ease of purchase in order to create customers.
-Pricing is conveyed clearly with a simple method to meke contact. In addition 
+testimonials, images, video clips and ease of contact in order to create customers.
+Pricing is conveyed clearly with a clear and simple method to contact the Business directly. In addition 
 to this, there is an offer of a free consultation for the most expensive 
 package which is the tailored programs. This offers an incentive for potential customers. 
 
 ## UX Design
 
-The purpose of this website is mainly to attract new customers.
+The purpose of this website is mainly to attract new customers and make them aware of the current offer (Free Consultation for the Personal Training Package.)
 It is a source of information for current customers as it provides social media
-links as well as a group fitness timetable. 
+links, a group fitness timetable, details on classes and a video of the classes.
+Customers can find out more about the founders background as well as what's involved in Personal Training.
+They have the ability to contact the Business and can tick the box to be sent any customer offers.
 The content is laid out to allow the customer navigate easily to 
-find the information which they require.
+find the information which they require. This includes a 'back-to-top' button and prompting links. 
 
 __The target customer has the following qualities:__
 * Health orientated/ Looking to establish fitness goals 
-* Is english speaking
 * Has disposable income
+* Wants to be part of a community 
 
 __The goal for visitors to the site, created the following brainstorm for the 
 User story:__
@@ -47,7 +50,7 @@ User story:__
 4. As a potential client, I want to have deals and offers highlighted which clearly outline the incentive to click on the link provided.
 5. As a potential/current client, I want to easily be able to contact the service provider. 
 6. As a potential/current client, I want easy access to all social media,
-7. As a potential/current client, I want easy access to timetables and examples of nutrition plans.
+7. As a potential/current client, I want easy access to timetables to see if they are viable for my time schedule.
 8. As a potential/current client, I want to be made aware of pricing.
 
 __Wireframe Mock-ups__
@@ -60,56 +63,55 @@ __Wireframe Mock-ups__
 #### Feature 1 
 _Navigation Bar:_
 This is a __responsive__ navigation bar which allows the user to navigate easily and access the information 
-which they require by clicking links. This enhances the User Interface. For mobile devices, this becomes a 'burger icon' dropdown menu
-which saves real estate for the smaller screen.
+which they require by clicking links. This enhances the User Interface. For mobile devices, this becomes a 'select' dropdown menu
+which saves real estate for the smaller screen. The logo is in the navigation bar and the yellow colour gives a sense of vibrancy reflecting the nature of the business.
+social media links are highlighted.
 
 #### Feature 2
 _Footer:_
-This is a fixed footer showing a copyright as well as a link to the privacy policy.
+This is a fixed footer showing a copyright as well as a link to social media links.
 There is a "Back to the top" button and this allows visitors to click it and return to the top of the page for ease of navigation.
 
 #### Feature 3
-_Social Media Icons:_ These are fixed icons on the left-hand side of the 
-page and sourced from Font Awesome. They change colour when the mouse hovers over them.
-
+_Social Media Icons:_ These are fixed iconsin both the navigation bar and footer. They are opposing colours to catch the attention of customers
+The icons are sourced from Font Awesome. They change colour when the mouse hovers over them which creates an engaging customer experience.
+The active page is highlighted by a slate gray colour to aid navigation. 
 
 #### Feature 4
-_Faded Image and Descriptive bar:_
-Each page has a faded image below the navigation bar to convey a positive emotive response from the user.
-On each page the signuture logo is printed across the image. 
-Towards the right of the page and on top of the image, there is a solid bar outlining 
-the current page that the customer is on and, in the case of the home 
-page, the motto of the business. 
+_Black and white Image:_
+Each page has a black and white image below the navigation bar to convey a positive emotive response from the user.
+On each page the signuture name of LN Fitness is printed across the image in bright green. Each page benefits from a new image to keep the customer engaged and convey the service provided. 
+With responsive design, the image is not shown, however, the signuture name is to encourage brand recognition. 
 
 #### Feature 5
-_Tailored program link:_ This is located on the 'Home' page and links to the 'Coaching'
+_Tailored program link:_ This is located on the 'Home' page and links to the 'Personal Training'
 page. It is to attract customers to the promotion of a free consultation and a 
-__call to action button__.
+__call to action button__. The word "free" is highlighted to draw attention to the offer. 
 
 #### Feature 6
-_Embedded Video:_ Located on the 'Coaching' page. The user can play and pause with a click. 
+_Embedded Video:_ Located on the 'Group Training' page. The user can play and pause with a click. With responsive design, this becomes a button that becomes an external page so the user is not taken away from LN Fitness website. 
 
 
 #### Feature 7
-_Get in touch link:_ Link on each page and a __call to action__ which directs the customer to the contact page. 
+_Get in touch link:_ Link on each page (except home) and a __call to action__ which directs the customer to the Get in Touch page. Located at the end of the page.
 
 
 #### Feature 8
 _Get in touch:_ This is a form, allowing visitors to send their enquiry directly to
-the fitness expert. Name, email and contact number must be filled. All fields are required
-and a valid email address must be used. The bottom of the page contains a Send Button. 
+the fitness expert. Name, email, contact number and message must be filled. All fields are required
+and a valid email address must be used. The bottom of the page contains a Send Button. Included in the form is a box that can be ticked to opt in to emails regarding the latest offers.
+This can potentially increase the customer base and allows for effective marketing. 
 
 #### Feature 9
-_Calendar:_ This is to slot in personal training sessions if you are on the tailored program.
-It is not interactive, however, it shows the trainers current availabilty.
-All unavailable dates are blocked out in colour.
+_Timetable:_ This is an external link that opens in another tab so as to keep the customer on the LN Fitness website. It is a detailed timetable allowing customers to browse the classes offered and the days/times in which they are on.
 
 #### Feature 10
-_Pricing:_  A link contained within the 'Get in Touch' page.
+_Pricing:_  A box contains the Personal Training price packages. 
 
 #### Fearure 11
-_Font and colours_ A dark blue background was chosen with the text in turquoise.
-This was to convey the clean, natural and healthy service that is being provided.
+_Font and colours_ A transitioning gray to white background was chosen with the text in black.
+This was to convey the clean and simple service that is being provided. The colours compliment the black and white photos while highlighting the energetic and vibrancy nature of the navigation bar (yellow), signiture text (bright green) and highlighted text (white or marigold)
+which is used to create a healthy ve=ibrancy to the website. 
 
 
 
@@ -119,7 +121,7 @@ This was to convey the clean, natural and healthy service that is being provided
 * GDPR Compliance 
 * A follow up message that thanks the customer for contacting the business.
 * An option of languages to increase the market potential
-* Functionality to the calender so customers can book in sessions
+* A functional calender so customers can book in sessions 
 * Potential to create an App for the online customers
 
 ## Technologies Used
@@ -142,9 +144,9 @@ Bootstrap 4 was utilised to create a resposive web page and give a framework to 
 * __Font Awesome:__ Provided icons. <br>https://fontawesome.com/
 
 
-* __Google Fonts:__ The main theme font of 'FILL IN' and sub-theme of 'FILL IN' were sourced from Google Fonts. <br>https://fonts.google.com/
+* __Google Fonts:__ The main font was sourced from <br>https://fonts.google.com/
 
-* __jQuery:__ This project makes reference to jQuery for FIIIILLL IN 
+* __jQuery:__ This project makes reference to jQuery  
  <br>https://jquery.com/
 
 * __Auto prefix tool:__ This tool allowed me to insure cross-browser compatability.
@@ -169,32 +171,33 @@ This project was created using the [Cloud9 IDE](https://c9.io), committed to git
 
 To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/murphya14/Fitness-webpage), the following steps were taken: 
 1. Log into GitHub. 
-2. From the list of repositories, select **AJGreaves/portrait-artist**.
-3. From the menu items near the top of the page, select **Settings**.
-4. Scroll down to the **GitHub Pages** section.
-5. Under **Source** click the drop-down menu labelled **None** and select **Master Branch**
-6. On selecting Master Branch the page is automatically refreshed, the website is now deployed. 
-7. Scroll back down to the **GitHub Pages** section to retrieve the link to the deployed website.
+2. In the repositories, select **murphya14/Fitness-webpaget**.
+3. Select **Settings** which is below the navigation bar.
+4. Go to the **GitHub Pages** section.
+5. Click the **Source** menu and select **Master Branch**
+6. The website is now deployed. 
+7. Scroll back to **GitHub Pages** section to find the link.
 
-At the moment of submitting this Milestone project the Development Branch and Master Branch are identical. 
 
 ### How to run this project locally
 
-To clone this project from GitHub:
-1. Follow this link to the [Project GitHub repository](https://github.com/murphya14/Fitness-webpage).
-2. Under the repository name, click "Clone or download".
-3. In the Clone with HTTPs section, copy the clone URL for the repository. 
-4. In your local IDE open Git Bash.
-5. Change the current working directory to the location where you want the cloned directory to be made.
-6. Type ```git clone```, and then paste the URL you copied in Step 3.
+Cloning this project from GitHub:
+1. Follow this link to the [LN Fitness Github repository](https://github.com/murphya14/Fitness-webpage).
+2. Click the green button on the right hand side of the screen named "Clone or download".
+3. Copy the URL shown for the repository. 
+4. Open Git Bash in your local IDE.
+5. Change working directory to the location where you want the cloned directory to be made.
+6. Type ```git clone```, and then paste the URL you copied.
 ```console
 git clone https://github.com/USERNAME/REPOSITORY
 ```
-7. Press Enter. Your local clone will be created.
+7. Press Enter to create your local clone. 
 
-Further reading and troubleshooting on cloning a repository from GitHub [here](https://help.github.com/en/articles/cloning-a-repository).
 
 ## Credits
+
+* I received inspiration from researching fitness website such as [Pat Divilly](https://www.patdivilly.com/) and [Adidas](https://www.adidas.ie/).
+
 
 ### Content
 All content in the 'About' page is fictional.
@@ -203,20 +206,26 @@ All content in the 'About' page is fictional.
 * __Images:__
 Images sourced by using advanced search in Google images to filter for "free to use, share or modify, even commercially" images only.
 Image links: 
-<br> 
-<br>
+* [Logo](https://svgsilh.com/image/1975689.html)
+* [Home Image](https://pixabay.com/photos/crossfit-sports-fitness-training-534615/)
+* [About Image](https://pxhere.com/en/photo/739233)
+* [Personal Training Image](https://www.google.com/search?q=gym++black+and+white&tbm=isch&tbs=rimg:CW7h6vM84x6uIghu4erzPOMerioSCW7h6vM84x6uEcCMNWXqBud_1&tbo=u&ved=2ahUKEwi_9Ljv3bvjAhWQRRUIHUwvA6oQiRx6BAgBEAo&ictx=1&uact=3#imgrc=JIKSG4GcFgMgBM:)
+* [Group Training Image](https://www.groupon.com/deals/8th-day-gym-1-grand-rapids)
+* [Contact Image](https://www.google.com/search?q=gym++black+and+white&tbm=isch&tbs=rimg:CW7h6vM84x6uIghu4erzPOMerioSCW7h6vM84x6uEcCMNWXqBud_1&tbo=u&ved=2ahUKEwi_9Ljv3bvjAhWQRRUIHUwvA6oQiRx6BAgBEAo&ictx=1&uact=3#imgrc=omrNNWzIAnIA5M:)
+* [Testimony Image](https://www.publicdomainpictures.net/en/view-image.php?image=275457&picture=weight-loss)
 
-* __Video:__
+* __Video:__ [Video from Vimeo](https://vimeo.com/229291915)
 
-* __Timetable and nutrition plan:__
+* __Timetable:__ Timetable is fictionally created.
 
 ### Code
-<br> 
+* Colour transition for the background was enable through [mycolor.space](https://mycolor.space/gradient?ori=to+right+top&hex=%2395ABAA&hex2=%23F6F6F5&sub=1*/)
+* Font design used for signature of LN Fitness obtained through [cssfontstack](https://www.cssfontstack.com/Web-Fonts).
 
 ### Disclaimer
 The content of this Website is for educational purposes only.
 
-### Acknowledgements 
+
 
 
 
