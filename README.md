@@ -49,7 +49,7 @@ User story:__
 3. As a potential client, I want to explore the available services, understand what's included in these services and receive testimonials/images/videos relaying feedback on the service provided.
 4. As a potential client, I want to have deals and offers highlighted which clearly outline the incentive to click on the link provided.
 5. As a potential/current client, I want to easily be able to contact the service provider. 
-6. As a potential/current client, I want easy access to all social media,
+6. As a potential/current client, I want easy access to all social media.
 7. As a potential/current client, I want easy access to timetables to see if they are viable for my time schedule.
 8. As a potential/current client, I want to be made aware of pricing.
 
