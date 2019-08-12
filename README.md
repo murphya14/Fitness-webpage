@@ -185,11 +185,11 @@ Cloning this project from GitHub:
 1. Follow this link to the [LN Fitness Github repository](https://github.com/murphya14/Fitness-webpage).
 2. Click the green button on the right hand side of the screen named "Clone or download".
 3. Copy the URL shown for the repository. 
-4. Open Git Bash in your local IDE.
+4. Open a terminal in your local dev environment.
 5. Change working directory to the location where you want the cloned directory to be made.
 6. Type ```git clone```, and then paste the URL you copied.
 ```console
-git clone https://github.com/USERNAME/REPOSITORY
+git clone https://github.com/murphya14/Fitness-website.git
 ```
 7. Press Enter to create your local clone. 
 
