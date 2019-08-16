@@ -1,6 +1,6 @@
 # Fitness Website - Testing 
 
-[README.md](/README.md)
+[README.md](https://github.com/murphya14/Fitness-website/blob/master/README.md)
 
 [Website available to view in GitHub Pages](https://github.com/murphya14/Fitness-webpage)
 

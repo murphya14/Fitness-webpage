@@ -54,9 +54,11 @@ User story:__
 8. As a potential/current client, I want to be made aware of pricing.
 
 __Wireframe Mock-ups__
-* [This is a link](assets/wireframe/about.html.jpg) 
-*
-*
+* [Home](https://github.com/murphya14/Fitness-website/blob/master/wireframe/index.html.jpg)
+* [About](https://github.com/murphya14/Fitness-website/blob/master/wireframe/about.html.jpg) 
+* [Personal Training](https://github.com/murphya14/Fitness-website/blob/master/wireframe/personal-training.html.jpg)
+* [Group Training](https://github.com/murphya14/Fitness-website/blob/master/wireframe/group-training.html.jpg) 
+* [Get in Touch](https://github.com/murphya14/Fitness-website/blob/master/wireframe/get_in_touch.html.jpg)
  
 ## Features
 ### Existing Features 
