@@ -54,10 +54,10 @@ User story:__
 8. As a potential/current client, I want to be made aware of pricing.
 
 __Wireframe Mock-ups__
+* [This is a link](assets/wireframe/about.html.jpg) 
 *
 *
-*
-
+ 
 ## Features
 ### Existing Features 
 #### Feature 1 
@@ -65,7 +65,7 @@ _Navigation Bar:_
 This is a __responsive__ navigation bar which allows the user to navigate easily and access the information 
 which they require by clicking links. This enhances the User Interface. For mobile devices, this becomes a 'select' dropdown menu
 which saves real estate for the smaller screen. The logo is in the navigation bar and the yellow colour gives a sense of vibrancy reflecting the nature of the business.
-social media links are highlighted.
+Social media links are highlighted.
 
 #### Feature 2
 _Footer:_
@@ -80,8 +80,8 @@ The active page is highlighted by a slate gray colour to aid navigation.
 #### Feature 4
 _Black and white Image:_
 Each page has a black and white image below the navigation bar to convey a positive emotive response from the user.
-On each page the signuture name of LN Fitness is printed across the image in bright green. Each page benefits from a new image to keep the customer engaged and convey the service provided. 
-With responsive design, the image is not shown, however, the signuture name is to encourage brand recognition. 
+On each page the signature name of LN Fitness is printed across the image in bright green. Each page benefits from a new image to keep the customer engaged and convey the service provided. 
+With responsive design, the image is not shown, however, the signature name is to encourage brand recognition. 
 
 #### Feature 5
 _Tailored program link:_ This is located on the 'Home' page and links to the 'Personal Training'
@@ -111,7 +111,7 @@ _Pricing:_  A box contains the Personal Training price packages.
 #### Fearure 11
 _Font and colours_ A transitioning gray to white background was chosen with the text in black.
 This was to convey the clean and simple service that is being provided. The colours compliment the black and white photos while highlighting the energetic and vibrancy nature of the navigation bar (yellow), signiture text (bright green) and highlighted text (white or marigold)
-which is used to create a healthy ve=ibrancy to the website. 
+which is used to create a healthy vibrancy to the website. 
 
 
 
@@ -163,7 +163,7 @@ Bootstrap 4 was utilised to create a resposive web page and give a framework to 
 
 ## Testing 
 
-Testing information can be found in separate [TESTING.md file](TESTING.md)
+Testing information can be found in separate [TESTING.md file](https://github.com/murphya14/Fitness-website/blob/master/TESTING.md)
 
 ## Deployment
 
