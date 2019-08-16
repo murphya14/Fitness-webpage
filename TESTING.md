@@ -166,7 +166,7 @@ Most common path through the website:
 
 ## Further testing: 
 
-1. Received feedback from students, friends and family who viewed the website on different devices. _Text was too constrained in mobile devices_
+1. Received feedback from students, friends and family who viewed the website on different devices. _Nav bar was taking up half the screen in medium devices and needed to be fixed so it was left at the top of the page._
 
 
 

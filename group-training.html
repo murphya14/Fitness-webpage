@@ -1,258 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" type="text/css" />
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Dancing+Script" />
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-
-  <title>Group Training</title>
-</head>
-
-<body>
-
-
-
-  <header>
-    <!-- Logo and Nav bar-->
-    <!-- Used help from Stack overflow: https://stackoverflow.com/questions/23949804/how-to-change-link-color-bootstrap-->
-
-
-    <nav class=" container-fliud navbar navbar-expand-lg navbar-custom  fixed-top navbar-light topnav">
-      <div><a class="logo " href="index.html">
-          <img src="assets/images/logo.png" alt="logo">
-        </a></div>
-
-
-      <div>
-        <div>
-          <ul class="nav justify-content-center container-fluid">
-
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item  ">
-              <a class="nav-link" href="personal-training.html">Personal Training</a>
-              <li class="nav-item ">
-                <a class="nav-link" id="active" href="group-training.html">Group Training</a>
-              </li>
-
-              <li class="nav-item ">
-                <a class="nav-link" href="get_in_touch.html">Get in Touch</a>
-              </li>
-          </ul>
-
-        </div>
-        <!-- Select menu for Nav bar for smaller devices-->
-
-        <select id="select"> 
-    <option value="index.html" >Home</option> 
-    <option value="about.html">About</option> 
-    <option value="personal-training.html" >Personal Training</option> 
-    <option value="group-training" selected="selected">Group Training</option> 
-    <option value="get_in_touch">Get in Touch</option> 
-  </select>
-
-        <!-- Social links-->
-
-        <div class="row no-gutters">
-          <div class="col">
-
-            <div class="nav-link">
-
-              <ul class="list-inline social-links">
-                <li class="list-inline-item">
-                  <a target="_blank" href="#">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                            <span class="sr-only">Facebook</span>
-                        </a>
-                </li>
-                <li class="list-inline-item">
-                  <a target="_blank" href="#">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                            <span class="sr-only">Twitter</span>
-                        </a>
-                </li>
-
-
-                <li class="list-inline-item">
-                  <a target="_blank" href="#">
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram</span>
-                        </a>
-                </li>
-
-              </ul>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <meta name="description" content="LN Fitness in Limerick">
+      <meta name="autor" content="Laura Nash">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" type="text/css" />
+      <link rel="stylesheet" href="assets/css/style.css" />
+      <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Dancing+Script" />
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <title>Group Training</title>
+   </head>
+   <body>
+      <header>
+         <!-- Logo and Nav bar-->
+         <!-- Used help from Stack overflow: https://stackoverflow.com/questions/23949804/how-to-change-link-color-bootstrap-->
+         <nav class=" container-fliud navbar navbar-expand-lg navbar-custom  fixed-top navbar-light topnav">
+            <div><a class="logo " href="index.html">
+               <img src="assets/images/logo.png" alt="logo">
+               </a>
             </div>
-          </div>
-        </div>
-
-    </nav>
-
-
-  </header>
-
-
-  <!-- Container for main image -->
-
-
-  <section class="section ">
-
-    <div class="container-fluid ">
-
+            <div>
+               <div>
+                  <ul class="nav justify-content-center container-fluid">
+                     <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                     </li>
+                     <li class="nav-item ">
+                        <a class="nav-link" href="about.html">About</a>
+                     </li>
+                     <li class="nav-item  ">
+                        <a class="nav-link" href="personal-training.html">Personal Training</a>
+                     <li class="nav-item ">
+                        <a class="nav-link" id="active" href="group-training.html">Group Training</a>
+                     </li>
+                     <li class="nav-item ">
+                        <a class="nav-link" href="get_in_touch.html">Get in Touch</a>
+                     </li>
+                  </ul>
+               </div>
+               <!-- Select menu for Nav bar for smaller devices-->
+               <select id="select">
+                  <option value="index.html" >Home</option>
+                  <option value="about.html">About</option>
+                  <option value="personal-training.html" >Personal Training</option>
+                  <option value="group-training" selected="selected">Group Training</option>
+                  <option value="get_in_touch">Get in Touch</option>
+               </select>
+               <!-- Social links-->
+               <div class="row no-gutters">
+                  <div class="col">
+                     <div class="nav-link">
+                       <ul class="list-inline social-links">
+                        <li class="list-inline-item">
+                           <a target="_blank" href="https://facebook.com/LNFitness">
+                           <i class="fa fa-facebook" aria-hidden="true"></i>
+                           <span class="sr-only">Facebook</span>
+                           </a>
+                        </li>
+                        <li class="list-inline-item">
+                           <a target="_blank" href="https://twitter.com/LNFitness">
+                           <i class="fa fa-twitter" aria-hidden="true"></i>
+                           <span class="sr-only">Twitter</span>
+                           </a>
+                        </li>
+                        <li class="list-inline-item">
+                           <a target="_blank" href="https://instagram.com/LNFitness">
+                           <i class="fa fa-instagram" aria-hidden="true"></i>
+                           <span class="sr-only">Instagram</span>
+                           </a>
+                        </li>
+                     </ul>
+                     </div>
+                  </div>
+               </div>
+         </nav>
+      </header>
+      <!-- Container for main image -->
+      <section class="section ">
+      <div class="container-fluid ">
       <div class="container-fluid">
-        <div class="row main-image ">
-
-          <div class=" col-md-12 image-about">
-            <img src="assets/images/group.jpg" alt="Group Fitness">
-
-            <h2 class="image-text">LN Fitness</h2>
-          </div>
-        </div>
+      <div class="row main-image ">
+      <div class=" col-md-12 image-about">
+      <img src="assets/images/group.jpg" alt="Group Fitness">
+      <h2 class="image-text">LN Fitness</h2>
       </div>
-
+      </div>
+      </div>
       <!-- Content for section -->
-
       <div class="container-fluid section">
-        <div class="row">
-          <div class="col-md-12">
-            <h3 class="section-heading">Group training at LN Fitness</h3>
-            <p class="col-md-8 section-p-about"> LN Fitness has established a strong community through the Group Fitness classes. With a supportive community behind you, experienced trainers and a range of exercise methods available, you can achieve your fitness goals.
-            </p>
-          </div>
-        </div>
-
-
-<!---https://www.w3schools.com/html/html_links.asp-->
-
-        <div class="row">
-          <div class="col-md-4 free-link  ">
-            <a class="section-link" id="click-here-active" href="assets/timetable.pdf" target="_blank">Click here to view our <p class="highlight">Class Timetable</p></a>
-          </div>
-        </div>
-
-<!-----https://www.tutorialrepublic.com/html-tutorial/html5-video.php---->
-
-        <div class="row justify-content-center">
-          <div class=" center col-md-12 content">
-            <iframe src="https://player.vimeo.com/video/229291915" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
-
-
-            <div class="mobile-only free-link">
-              <a class="section-link" id="click-here-active" href="https://player.vimeo.com/video/229291915" target="_blank">Click here to view our <p class="highlight">Group Class in action</p>
-</a>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="row justify-content-center">
-
-
-          <div class="transbox col-md-4 col-sm-12">
-            <h3 class="box-heading">Circuits</h3>
-            <div class="container">
-              <p>Our circuit training is a high energy, performance boosting 45 minute class. We incorporate weights and cardio to give you a full body workout. The circuit is always changing to keep our clients on their toes and ready for the next challenge.
-                Push yourself to your limits and try our very popular Circuits Class. </p>
-            </div>
-          </div>
-
-
-
-<!-----https://codepen.io/OksanaBorukh/pen/Kgwrmw---->
-
-          <div class="transbox col-md-4 col-sm-12">
-            <h3 class="box-heading"> Pilates</h3>
-            <p>Engage your core and follow a flow that uses your own bodyweight to create resistance and build flexibility. This soothing practice has many benefits and is an excellent way to build strength, increase mobility and work on your breathing.
-              A meditative practice is incorporated to gain the true benefit of this practice. </p>
-          </div>
-
-          <div class="transbox   col-md-4 col-sm-12">
-            <h3 class="box-heading"> Spinning</h3>
-            <p>Music blasting. Heart pumping . Spinning uses HIIT (High Intensity Interval Training) to achieve maximum results with minimum amount of time. Spin your way to the body you want with our motivating instructors. </p>
-          </div>
-
-
-        </div>
-
-        <div class="row">
-          <div class="col-md-4 free-link"><a class="section-link" id="click-here-active" href="get_in_touch.html">Click here to find out more and <p class="highlight">Get in Touch</p></a></div>
-
-        </div>
+      <div class="row">
+      <div class="col-md-12">
+      <h3 class="section-heading">Group training at LN Fitness</h3>
+      <p class="col-md-8 section-p-about"> LN Fitness has established a strong community through the Group Fitness classes. With a supportive community behind you, experienced trainers and a range of exercise methods available, you can achieve your fitness goals.
+      </p>
       </div>
-
-
-
-
-    </div>
-    </div>
-
-  </section>
-  </div>
-
-
-
-
-  <!-- footer-->
-
-  <footer id="footer" class="container-fluid py-4 bg-dark text-white-50">
-    <div class="row">
-
-      <div class="col-sm-4 text-footer">
-        <small>2019 Copyright &copy; AM</small></div>
-
-      <div class="col-sm-4 "><a href="#top" id="button"></a></div>
-
-
-      <div class="col-sm-4">
-
-        <!-- footer social media links-->
-        <div class="footer-link">
-          <h5 class="uppercase general-sub">Connect</h5>
-          <ul class="list-inline social-links">
-            <li class="list-inline-item">
-              <a target="_blank" href="#">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                            <span class="sr-only">Facebook</span>
-                        </a>
-            </li>
-            <li class="list-inline-item">
-              <a target="_blank" href="#">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                            <span class="sr-only">Twitter</span>
-                        </a>
-            </li>
-
-
-            <li class="list-inline-item">
-              <a target="_blank" href="#">
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram</span>
-                        </a>
-            </li>
-
-          </ul>
-        </div>
-
       </div>
-
-  </footer>
-
-
-
-
-
-
-</body>
-
+      <!---https://www.w3schools.com/html/html_links.asp-->
+      <div class="row">
+      <div class="col-md-4 free-link  ">
+      <a class="section-link" id="click-here-active" href="assets/timetable.pdf" target="_blank">Click here to view our <p class="highlight">Class Timetable</p></a>
+      </div>
+      </div>
+      <!-----https://www.tutorialrepublic.com/html-tutorial/html5-video.php---->
+      <div class="row justify-content-center">
+      <div class=" center col-md-12 content">
+      <iframe src="https://player.vimeo.com/video/229291915" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      </div>
+      </div>
+      <div class="row justify-content-center">
+      <div class="transbox col-md-4 col-sm-12">
+      <h3 class="box-heading">Circuits</h3>
+      <div class="container">
+      <p>Our circuit training is a high energy, performance boosting 45 minute class. We incorporate weights and cardio to give you a full body workout. The circuit is always changing to keep our clients on their toes and ready for the next challenge.
+      Push yourself to your limits and try our very popular Circuits Class. </p>
+      </div>
+      </div>
+      <!-----https://codepen.io/OksanaBorukh/pen/Kgwrmw---->
+      <div class="transbox col-md-4 col-sm-12">
+      <h3 class="box-heading"> Pilates</h3>
+      <p>Engage your core and follow a flow that uses your own bodyweight to create resistance and build flexibility. This soothing practice has many benefits and is an excellent way to build strength, increase mobility and work on your breathing.
+      A meditative practice is incorporated to gain the true benefit of this practice. </p>
+      </div>
+      <div class="transbox   col-md-4 col-sm-12">
+      <h3 class="box-heading"> Spinning</h3>
+      <p>Music blasting. Heart pumping . Spinning uses HIIT (High Intensity Interval Training) to achieve maximum results with minimum amount of time. Spin your way to the body you want with our motivating instructors. </p>
+      </div>
+      </div>
+      <div class="row">
+      <div class="col-md-4 free-link"><a class="section-link" id="click-here-active" href="get_in_touch.html">Click here to find out more and <p class="highlight">Get in Touch</p></a></div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </section>
+      </div>
+      <!-- footer-->
+      <footer id="footer" class="container py-4 bg-dark text-white-50">
+         <div class="row">
+         <div class="col-sm-4 text-footer">
+            <small>2019 Copyright &copy; AM</small>
+         </div>
+         <div class="col-sm-4 "><a href="#top" id="button"></a></div>
+         <div class="col-sm-4">
+            <!-- footer social media links-->
+            <div class="footer-link">
+               <h5 class="uppercase general-sub">Connect</h5>
+               <ul class="list-inline social-links">
+                        <li class="list-inline-item">
+                           <a target="_blank" href="https://facebook.com/LNFitness">
+                           <i class="fa fa-facebook" aria-hidden="true"></i>
+                           <span class="sr-only">Facebook</span>
+                           </a>
+                        </li>
+                        <li class="list-inline-item">
+                           <a target="_blank" href="https://twitter.com/LNFitness">
+                           <i class="fa fa-twitter" aria-hidden="true"></i>
+                           <span class="sr-only">Twitter</span>
+                           </a>
+                        </li>
+                        <li class="list-inline-item">
+                           <a target="_blank" href="https://instagram.com/LNFitness">
+                           <i class="fa fa-instagram" aria-hidden="true"></i>
+                           <span class="sr-only">Instagram</span>
+                           </a>
+                        </li>
+                     </ul>
+            </div>
+         </div>
+      </footer>
+   </body>
 </html>
